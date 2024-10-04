@@ -31,7 +31,7 @@ st.session_state.counter = st.session_state.get('counter', 0)
 
 
 # Button to increment the counter
-if st.button("Click me!"):
+if st.button("Increase Counter"):
     st.session_state.counter += 1
 
 st.markdown(f'<div class="counter-text">Counter:{st.session_state.counter}</div>', unsafe_allow_html=True)
