@@ -16,8 +16,6 @@ div.stButton > button:first-child {
     color: white;
     height: 3em;
     width: 12em;
-    border-radius:10px;
-    border:3px solid #000000;
     font-size:20px;
     font-weight: bold;
     margin: auto;
