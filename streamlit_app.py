@@ -8,7 +8,8 @@ m = st.markdown("""
         font-weight: bold;
         margin: auto;
         display: block;
-                text-align:center;
+        text-align:center;
+        margin-top:-130px;
     }
 div.stButton > button:first-child {
     background-color: #007bff;;
