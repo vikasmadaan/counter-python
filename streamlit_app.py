@@ -1,5 +1,6 @@
 import streamlit as st
 
+# Styling the component 
 m = st.markdown("""
 <style>
 .counter-text {
@@ -23,9 +24,7 @@ div.stButton > button:first-child {
 }
 </style>""", unsafe_allow_html=True)
 
-
-
-# Initialize the counter in session state if it doesn't exist
+# Initializing the counter in session state
 st.session_state.counter = st.session_state.get('counter', 0)
 
 
@@ -33,4 +32,5 @@ st.session_state.counter = st.session_state.get('counter', 0)
 if st.button("Increase Counter"):
     st.session_state.counter += 1
 
+# Text to display the counter value
 st.markdown(f'<div class="counter-text">Counter:{st.session_state.counter}</div>', unsafe_allow_html=True)
